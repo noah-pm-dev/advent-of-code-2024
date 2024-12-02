@@ -43,7 +43,8 @@ def partTwo(reports):
 with open("day2/input.txt", 'r') as inp:
     reports = inp.read().split('\n')
 
-
-#partOne(reports)
+print("Part One: ")
+partOne(reports)
+print("Part Two: ")
 partTwo(reports)
 
