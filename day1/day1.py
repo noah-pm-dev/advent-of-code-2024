@@ -5,7 +5,7 @@ def partOne(left, right):
     total_distance = 0
     for i in range(0, len(left)):
         total_distance += abs(left[i] - right[i])
-    print("Total Distance: %s" % total_distance)
+    print("Total Distance: ", total_distance)
 
 def partTwo(left, right):
     similarity_score = 0
@@ -16,7 +16,7 @@ def partTwo(left, right):
                 occurences += 1
         similarity_score += occurences * num
         occurences = 0
-    print("Similarity Score: %s" % similarity_score)
+    print("Similarity Score: ", similarity_score)
 
 
 with open("day1/input.txt", 'r') as inp:
